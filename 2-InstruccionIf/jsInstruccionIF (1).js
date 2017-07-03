@@ -1,7 +1,12 @@
 function Mostrar()
 {
-//tomo la edad  
+    var edad;
 
-
-
-}//FIN DE LA FUNCIÓN
+    edad = document.getElementById("edad").value;
+    /* Funcion auxiliar
+    console.log (edad)
+    */
+    if (edad == 15) {
+        alert ("Niña bonita");
+    }
+}
