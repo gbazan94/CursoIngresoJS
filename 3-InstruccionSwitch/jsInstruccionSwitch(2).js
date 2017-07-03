@@ -4,7 +4,7 @@ function Mostrar()
     var mesDelAño = document.getElementById('mes').value;
     /*Funcion Auxiliar
     console.log ("Mes: "+mesDelAño);*/
-    switch (mesDelAño)
+    /*switch (mesDelAño)
     {
         case "Enero":
         case "Febrero":
@@ -30,5 +30,12 @@ function Mostrar()
             alert ("Ya pasamos el frio, ahora calor!!!");
             break;
         }
+    }*/
+    if (mesDelAño == "Enero" || mesDelAño == "Febrero" || mesDelAño ==  "Marzo"|| mesDelAño ==  "Abril"|| mesDelAño == "Mayo"|| mesDelAño == "Junio"){
+        alert ("Falta para el invierno.");
+    } else if (mesDelAño == "Julio" || mesDelAño == "Agosto"){
+        alert ("Abrigate que hace frio");
+    } else {
+        alert ("Ya pasamos el frio, ahora calor!!!");
     }
 }//FIN DE LA FUNCIÓN
